@@ -1,0 +1,15 @@
+{
+    "name": "mnemonic2private-key",
+    "version": "1.0.0",
+    "description": "Async Converter mnemonic phrases to private keys",
+    "main": "main.ts",
+    "scripts": {
+        "start": "node main.ts"
+    },
+    "dependencies": {
+        "ethers": "^5.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.1"
+    }
+}

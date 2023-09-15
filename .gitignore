@@ -1,0 +1,18 @@
+seeds.txt
+private_keys.txt
+# Compilled js
+*.js
+!_*.js
+# Private files
+
+proxies.txt
+# Dependency directories
+node_modules/
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+test.ts
+test.ts
