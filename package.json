@@ -2,14 +2,21 @@
     "name": "mnemonic2private-key",
     "version": "1.0.0",
     "description": "Async Converter mnemonic phrases to private keys",
-    "main": "main.ts",
+    "start": "ts-node main.ts",
     "scripts": {
-        "start": "node main.ts"
+      "start": "ts-node main.ts",
+      "build": "tsc --project tsconfig.json"
     },
     "dependencies": {
-        "ethers": "^5.7.0"
+      "@cosmjs/proto-signing": "^0.32.3",
+      "ethers": "^5.7.2",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.4.5",
+      "yargs": "^17.7.2"
     },
     "devDependencies": {
-        "@types/node": "^20.6.1"
+      "@types/node": "^20.14.2",
+      "@types/yargs": "^17.0.24"
     }
-}
+  }
+  

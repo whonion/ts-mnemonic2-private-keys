@@ -1,4 +1,5 @@
 seeds.txt
+private_keys*
 private_keys.txt
 # Compilled js
 *.js
